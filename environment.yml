@@ -1,0 +1,24 @@
+name: calsep
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - pandas
+  - networkx
+  - jupyter
+  - autograd
+  - pylops
+  - pyproximal
+  - scikit-learn
+  - pyarrow
+  - scip
+  - cvxpy
+  - cvxopt
+  - pip:
+    - pymanopt
